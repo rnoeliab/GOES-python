@@ -1,7 +1,7 @@
 # GOES-python
 This repository is to process GOES images with python
 
-Before starting to use this repository, you must have Anaconda3 and python 3.6 or higher installed. If in case you do not have it installed, click on the following link:[Installing_anaconda](https://github.com/rnoeliab/Installing_anaconda)
+Before starting to use this repository, you must have Anaconda3 and python 3.6 or higher installed. If in case you do not have it installed, click on the following link: [Installing Anaconda](https://github.com/rnoeliab/Installing_anaconda)
 
 ## GEONETClass: Manipulating GOES-16 Data With Python – Part I
 
