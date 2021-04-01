@@ -6,6 +6,9 @@ Before starting to use this repository, you must have Anaconda3 and python 3.6 o
 ## Products Available
 ![Alt text](https://github.com/rnoeliab/GOES-python/blob/main/products_available.png)
 
+## Download GOES data 
+* [GOES-16/17 on Amazon Download Page](https://home.chpc.utah.edu/~u0553130/Brian_Blaylock/cgi-bin/goes16_download.cgi)
+* [GOES-R Series Dataset](https://www.ncdc.noaa.gov/airs-web/search)
 
 ## GEONETClass: Manipulating GOES-16 Data With Python – Part I
 
