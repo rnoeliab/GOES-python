@@ -20,6 +20,12 @@ Before starting to use this repository, you must have Anaconda3 and python 3.6 o
 ```
 
 ## GEONETClass: Manipulating GOES-16 Data With Python – Part II
+
+* Here we are going to manipulate the basemap library a bit, learn to represent a variable spatially. 
+* Add a type of projection, contour of countries, states, meridians, parallels, add the colorbar, the levels of the palette and finally save the image [read_save.py](https://github.com/rnoeliab/GOES-python/blob/main/SST/2.read_save.py). 
+
 ```
   conda install -c anaconda basemap 
 ```
+
+
