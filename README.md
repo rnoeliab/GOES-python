@@ -14,6 +14,6 @@ Before starting to use this repository, you must have Anaconda3 and python 3.6 o
 ## GEONETClass: Manipulating GOES-16 Data With Python – Part I
 
 *  To learn how to manipulate GOES data with python we are going to re-do the examples on this web page: [goes part I](https://geonetcast.wordpress.com/2017/04/27/geonetclass-manipulating-goes-16-data-with-python-part-i/)
-* In this class we are only going to teach you to read an image goes [read_data.py]Chttps://github.com/rnoeliab/GOES-python/blob/main/SST/1.read_data.py) in a very simple way and using the library "from netCDF4 import Dataset".
+* In this class we are only going to teach you to read an image goes [read_data.py](https://github.com/rnoeliab/GOES-python/blob/main/SST/1.read_data.py) in a very simple way and using the library "from netCDF4 import Dataset".
 
 ## GEONETClass: Manipulating GOES-16 Data With Python – Part II
