@@ -47,8 +47,17 @@ bmap.bluemarble()
 # Plot GOES-16 channel with transparency
 bmap.imshow(data, origin='upper', vmin=170, vmax=378, cmap='Greys', alpha=0.5)
 ```
-*
-
+* Modifying the map background 
+```python
+# Add an ocean mask
+bmap.shadedrelief() 
+bmap.etopo()
+```
+* Add an ocean mask
+```python
+# Add an ocean mask
+bmap.drawlsmask(ocean_color='aqua',lakes=True)
+```
 
 ## GEONETClass: Manipulating GOES-16 Data With Python – Part V
 
