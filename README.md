@@ -39,8 +39,7 @@ Today, we’ll learn two things (read [3.extract_header.py](https://github.com/r
 
 ## GEONETClass: Manipulating GOES-16 Data With Python – Part IV
 
-Here, we can modify the basemap to generate different maps: 
-
+Here, we can modify the basemap from the previous exercise ([3.extract_header.py](https://github.com/rnoeliab/GOES-python/blob/main/SST/3.extract_header.py)) to generate different maps:
 * Add a type of background on the map and a transparency "alpha=0.5" (50%).
 ```python
 # Add a Blue Marble background
