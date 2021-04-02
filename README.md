@@ -32,6 +32,7 @@ Before starting to use this repository, you must have Anaconda3 and python 3.6 o
 Today, we’ll learn two things (read [3.extract_header.py](https://github.com/rnoeliab/GOES-python/blob/main/SST/3.extract_header.py)):
 
 1-) How to extract the GOES-16 Band Number, the Start and the End of the Scan times based on the file name.
+
 2-) How to read the GOES-16 NetCDF file header in order to retrieve information about the image.
 
 
