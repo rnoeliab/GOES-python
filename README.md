@@ -39,6 +39,18 @@ Today, we’ll learn two things (read [3.extract_header.py](https://github.com/r
 
 ## GEONETClass: Manipulating GOES-16 Data With Python – Part IV
 
+Here, we can modify the basemap to generate different maps: 
+
+* Add a type of background on the map and a transparency "alpha=0.5" (50%).
+```python
+# Add a Blue Marble background
+bmap.bluemarble()
+# Plot GOES-16 channel with transparency
+bmap.imshow(data, origin='upper', vmin=170, vmax=378, cmap='Greys', alpha=0.5)
+```
+*
+
+
 ## GEONETClass: Manipulating GOES-16 Data With Python – Part V
 
 ## GEONETClass: Manipulating GOES-16 Data With Python – Part VI
