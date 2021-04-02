@@ -36,7 +36,7 @@ nc = Dataset(diretory+path)
 data = nc.variables['CMI'][:]
  
 # Create the basemap reference for the Satellite Projection
-bmap = Basemap(projection='geos', lon_0=-89.5, lat_0=0.0, satellite_height=35786023.0, ellps='GRS80')
+bmap = Basemap(projection='geos', lon_0=-75.5, lat_0=0.0, satellite_height=35786023.0, ellps='GRS80')
  
 # Plot GOES-16 channel
 bmap.imshow(data, origin='upper', vmin=170, vmax=378, cmap='Greys')
