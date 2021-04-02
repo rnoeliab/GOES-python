@@ -27,5 +27,21 @@ Before starting to use this repository, you must have Anaconda3 and python 3.6 o
 ```
   conda install -c anaconda basemap 
 ```
+## GEONETClass: Manipulating GOES-16 Data With Python – Part III
+
+Today, we’ll learn two things:
+
+1-) How to extract the GOES-16 Band Number, the Start and the End of the Scan times based on the file name.
+
+2-) How to read the GOES-16 NetCDF file header in order to retrieve information about the image.
+
+
+
+## GEONETClass: Manipulating GOES-16 Data With Python – Part IV
+
+## GEONETClass: Manipulating GOES-16 Data With Python – Part V
+
+## GEONETClass: Manipulating GOES-16 Data With Python – Part VI
+
 
 
