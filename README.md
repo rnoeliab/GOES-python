@@ -61,6 +61,8 @@ bmap.drawlsmask(ocean_color='aqua',lakes=True)
 
 ## GEONETClass: Manipulating GOES-16 Data With Python – Part V
 
+[Brazilian_States_Shape](https://www.dropbox.com/s/8o5gfpl3jj2efib/Brazilian_States_Shape.zip?raw=1)
+
 ## GEONETClass: Manipulating GOES-16 Data With Python – Part VI
 
 
