@@ -62,7 +62,7 @@ bmap.drawlsmask(ocean_color='aqua',lakes=True)
 
 In this chapter we are going to implement a vector "shapefile (shp)" in the basemap to visualize the divisions of the states of a specific country. [Brazilian_States_Shape](https://www.dropbox.com/s/8o5gfpl3jj2efib/Brazilian_States_Shape.zip?raw=1).
 * Download the "shp" indicated above and check the directory path.
-* Before running the [5.add_shp_cmap.py](https://github.com/rnoeliab/GOES-python/blob/main/SST/5.add_shp_cmap.py) script we will first run the [cpt_convert.py](https://github.com/rnoeliab/GOES-python/blob/main/SST/cpt_convert.py) script. 
+* Before running the [5.add_shp_cmap.py](https://github.com/rnoeliab/GOES-python/blob/main/SST/5.add_shp_cmap.py) script we will first run the [cpt_convert.py](https://github.com/rnoeliab/GOES-python/blob/main/SST/cpt_convert.py) script (Figure: [5.add_shp_cmap.png](https://github.com/rnoeliab/GOES-python/blob/main/Figures/5.add_shp_cmap.png)). 
 * The [cpt_convert.py](https://github.com/rnoeliab/GOES-python/blob/main/SST/cpt_convert.py) script must be in the same directory as the [4.add_shp.py](https://github.com/rnoeliab/GOES-python/blob/main/SST/4.add_shp.py) script: 
 ```
 python cpt_convert.py
