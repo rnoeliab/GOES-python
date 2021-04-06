@@ -58,18 +58,29 @@ bmap.etopo()
 # Add an ocean mask
 bmap.drawlsmask(ocean_color='aqua',lakes=True)
 ```
-
 ## GEONETClass: Manipulating GOES-16 Data With Python – Part V
 
-In this chapter we are going to implement a vector "shapefile (shp)" in the basemap to visualize the divisions of the states of a specific country. [Brazilian_States_Shape](https://www.dropbox.com/s/8o5gfpl3jj2efib/Brazilian_States_Shape.zip?raw=1)
-* Before running the [4.add_shp.py](https://github.com/rnoeliab/GOES-python/blob/main/SST/4.add_shp.py) script we will first run the [cpt_convert.py](https://github.com/rnoeliab/GOES-python/blob/main/SST/cpt_convert.py) script. 
+In this chapter we are going to implement a vector "shapefile (shp)" in the basemap to visualize the divisions of the states of a specific country. [Brazilian_States_Shape](https://www.dropbox.com/s/8o5gfpl3jj2efib/Brazilian_States_Shape.zip?raw=1).
+* Download the "shp" indicated above and check the directory path.
+* Before running the [5.add_shp_cmap.py](https://github.com/rnoeliab/GOES-python/blob/main/SST/5.add_shp_cmap.py) script we will first run the [cpt_convert.py](https://github.com/rnoeliab/GOES-python/blob/main/SST/cpt_convert.py) script. 
 * The [cpt_convert.py](https://github.com/rnoeliab/GOES-python/blob/main/SST/cpt_convert.py) script must be in the same directory as the [4.add_shp.py](https://github.com/rnoeliab/GOES-python/blob/main/SST/4.add_shp.py) script: 
 ```
 python cpt_convert.py
 ```
-* Before running the script [add_shp.py](https://github.com/rnoeliab/GOES-python/blob/main/SST/4.add_shp.py) we are going to download the "shp" indicated above and add it to the basemap line, as shown below: 
+* Then, from [3.extract_header.py] script, we are going to add several lines: 
+* After the line "bmap = Basemap(projection='geos', lon_0=-75.5, lat_0=0.0, satellite_height=35786023.0, ellps='GRS80')"
 ```python
+# Converts the CPT file to be used in Python
+cpt = loadCPT('/home/noelia/Documents/goes/tutorial/G16_SSTF/IR4AVHRR6.cpt')
+# Makes a linear interpolation with the CPT file
+cpt_convert = LinearSegmentedColormap('cpt', cpt)
 
+# Plot the GOES-16 channel with the converted CPT colors
+trend = bmap.imshow(data, origin='upper', vmin=170, vmax=378, cmap=cpt_convert)
+```
+* After the line "bmap.drawmeridians(np.arange(0.0, 360.0, 10.0), linewidth=0.3, color='white')": 
+```python
+bmap.readshapefile('/home/noelia/input/Brazilian_States_Shape/BRA_adm1','BRA_adm1',linewidth=0.3,color='black')
 ```
 
 ## GEONETClass: Manipulating GOES-16 Data With Python – Part VI
