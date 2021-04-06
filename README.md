@@ -68,6 +68,11 @@ In this chapter we are going to implement a vector "shapefile (shp)" in the base
 python cpt_convert.py
 ```
 * Then, from [3.extract_header.py] script, we are going to add several lines: 
+```python
+#add libraries
+from cpt_convert import loadCPT # Import the CPT convert function
+from matplotlib.colors import LinearSegmentedColormap # Linear interpolation for color maps
+```
 * After the line "bmap = Basemap(projection='geos', lon_0=-75.5, lat_0=0.0, satellite_height=35786023.0, ellps='GRS80')"
 ```python
 # Converts the CPT file to be used in Python
