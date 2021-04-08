@@ -90,4 +90,19 @@ bmap.readshapefile('/home/noelia/input/Brazilian_States_Shape/BRA_adm1','BRA_adm
 ## GEONETClass: Manipulating GOES-16 Data With Python – Part VI
 
 * Here, we will learn how to reproject and image to the rectangular projection. Also we are going to choose the region that we want to visualize.
-* We need some files: [cpt_convert.py](https://github.com/rnoeliab/GOES-python/blob/main/SST/cpt_convert.py),[IR4AVHRR6.cpt](https://github.com/rnoeliab/GOES-python/blob/main/SST/IR4AVHRR6.cpt), [remap.py](https://github.com/rnoeliab/GOES-python/blob/main/SST/remap.py) and [6.rectangular_projection.py](https://github.com/rnoeliab/GOES-python/blob/main/SST/6.rectangular_projection.py)
+* We need some files: [cpt_convert.py](https://github.com/rnoeliab/GOES-python/blob/main/SST/cpt_convert.py), [IR4AVHRR6.cpt](https://github.com/rnoeliab/GOES-python/blob/main/SST/IR4AVHRR6.cpt), [remap.py](https://github.com/rnoeliab/GOES-python/blob/main/SST/remap.py) and [6.rectangular_projection.py](https://github.com/rnoeliab/GOES-python/blob/main/SST/6.rectangular_projection.py).
+* First, we need to run `cpt_covert.py`, then `remap.py` and finally `6.rectangular_projection.py`.
+* In the last script, we can change the `extent` by other latitudes and longitudes. This depends on the area of our interest.
+
+![Alt text](https://github.com/rnoeliab/GOES-python/blob/main/Figures/6.rectangular_projection.png)
+
+
+
+
+
+
+
+
+
+
+
