@@ -35,8 +35,6 @@ Today, we’ll learn two things (read [3.extract_header.py](https://github.com/r
 
 2-) How to read the GOES-16 NetCDF file header in order to retrieve information about the image.
 
-
-
 ## GEONETClass: Manipulating GOES-16 Data With Python – Part IV
 
 Here, we can modify the basemap from the previous exercise ([3.extract_header.py](https://github.com/rnoeliab/GOES-python/blob/main/SST/3.extract_header.py)) to generate different maps:
@@ -91,5 +89,5 @@ bmap.readshapefile('/home/noelia/input/Brazilian_States_Shape/BRA_adm1','BRA_adm
 
 ## GEONETClass: Manipulating GOES-16 Data With Python – Part VI
 
-
-
+* Here, we will learn how to reproject and image to the rectangular projection. Also we are going to choose the region that we want to visualize.
+* We need some files: [cpt_convert.py](https://github.com/rnoeliab/GOES-python/blob/main/SST/cpt_convert.py),[IR4AVHRR6.cpt](https://github.com/rnoeliab/GOES-python/blob/main/SST/IR4AVHRR6.cpt), [remap.py](https://github.com/rnoeliab/GOES-python/blob/main/SST/remap.py) and [6.rectangular_projection.py](https://github.com/rnoeliab/GOES-python/blob/main/SST/6.rectangular_projection.py)
