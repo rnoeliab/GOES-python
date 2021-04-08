@@ -87,6 +87,7 @@ trend = bmap.imshow(data, origin='upper', vmin=170, vmax=378, cmap=cpt_convert)
 ```python
 bmap.readshapefile('/home/noelia/input/Brazilian_States_Shape/BRA_adm1','BRA_adm1',linewidth=0.3,color='black')
 ```
+* There are other color palettes to show: [5.1.add_shp_cmap_temp.py](https://github.com/rnoeliab/GOES-python/blob/main/SST/5.1.add_shp_cmap_temp.py) and [5.2.add_shp_cmap_vapor.py](https://github.com/rnoeliab/GOES-python/blob/main/SST/5.2.add_shp_cmap_vapor.py)
 
 ## GEONETClass: Manipulating GOES-16 Data With Python – Part VI
 
